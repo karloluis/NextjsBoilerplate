@@ -7,7 +7,7 @@ import { COLORS, TYPOGRAPHY } from '../lib/styles';
 export default class MyDocument extends Document {
   static getInitialProps({ renderPage }) {
     const {
-      html, head, errorHtml, chunks
+      html, head, errorHtml, chunks,
     } = renderPage();
     const styles = flush();
     return {
