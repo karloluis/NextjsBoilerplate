@@ -1,9 +1,10 @@
 import React from 'react';
 
-import { H1, H2, H3, H4, H5, H6, P, Strong, Italic, Link } from '../components/Typography';
+import Typography from '../components/Typography';
 import CoverBackground from '../components/Design/CoverBackground';
 import TitleBlock from '../components/Design/TitleBlock';
 
+const { H1, H2, H3, H4, H5, H6, P, Strong, Italic, Link } = Typography;
 
 // import { COLORS, TYPOGRAPHY, SPACING, TEXTSIZE } from '../lib/styles';
 
